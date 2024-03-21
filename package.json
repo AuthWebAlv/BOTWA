@@ -1,0 +1,25 @@
+{
+  "name": "whatsapp-gpt",
+  "version": "1.0.0",
+  "description": "Whatsapp chatbot powered by whatsapp-web.js",
+  "main": "bot.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "BOTCAHX",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "file-type": "^16.5.4",
+    "form-data": "^2.3.3",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^3.0.1",
+    "puppeteer": "^21.2.1",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "https://github.com/Julzk/whatsapp-web.js/tarball/jkr_hotfix_8"
+  }
+}
